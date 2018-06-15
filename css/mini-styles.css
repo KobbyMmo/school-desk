@@ -1200,7 +1200,8 @@ ul {
 }
 
 #header-raleway.sticky-header.p-slide-not-top .nav-logo-core {
-    background-image: url(/images/logo.png)
+    background-image: url(/images/logo.png);
+    background-size: contain;
 }
 
 #header-raleway.sticky-header.p-slide-not-top .hamburger-control svg g {
@@ -1385,7 +1386,9 @@ ul {
 }
 
 #header-raleway.theme-core-blue .nav-logo {
-    background-image: url(../images/logo.png)
+    background-image: url(../images/logo.png);
+    background-size: contain;
+    
 }
 
 #header-raleway.theme-core-blue .cta {
@@ -1410,7 +1413,9 @@ ul {
 .theme-business-white-minimal .nav-logo,
 .theme-business-white-no-links .nav-logo,
 .theme-transparent-on-light .nav-logo {
-    background-image: url(/images/logo.png)
+    background-image: url(/images/logo.png);
+    background-size: contain;
+    
 }
 
 @media (-webkit-min-device-pixel-ratio:2),
@@ -1419,7 +1424,9 @@ ul {
     .theme-business-white-minimal .nav-logo,
     .theme-business-white-no-links .nav-logo,
     .theme-transparent-on-light .nav-logo {
-        background-image: url(/images/logo.png)
+        background-image: url(/images/logo.png);
+    background-size: contain;
+        
     }
 }
 
@@ -1428,6 +1435,8 @@ ul {
 .theme-business-white-no-links .nav-logo-core,
 .theme-transparent-on-light .nav-logo-core {
     background-image: url(/images/logo.png);
+    background-size: contain;
+    
     width: 150px
 }
 
@@ -1464,6 +1473,7 @@ ul {
 .theme-business-gray-dark .nav-logo-core,
 .theme-transparent-on-dark .nav-logo-core {
     background-image: url(../images/logo.png);
+    background-size: contain;    
     max-width: 300px
 }
 
