@@ -4,7 +4,9 @@
 .new-badge {
     border-radius: 3px
 }
-
+.tagline{
+    letter-spacing: 4px;
+}
 .img-mobile{
     height: 500px;
 margin: 0 auto;
