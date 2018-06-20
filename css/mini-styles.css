@@ -26,7 +26,9 @@ margin: 0 auto;
 #header-raleway {
     position: absolute!important
 }
-
+.info-text.col-xs-12, .tab-fig{
+    position: inherit;
+}
 body {
     background-color: #152235
 }
