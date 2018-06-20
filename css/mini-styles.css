@@ -11,7 +11,18 @@
     height: 500px;
 margin: 0 auto;
 }
+.multi-platform{
+    max-height: 100px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
 
+.multi-platform-text{
+    text-align: center;
+}
+.multi-platform-text.h4{
+    font-weight: 700;
+}
 #header-raleway {
     position: absolute!important
 }
