@@ -12,7 +12,7 @@
 margin: 0 auto;
 }
 .multi-platform{
-    max-height: 100px;
+    max-height: 160px;
     margin: 0 auto;
     margin-bottom: 16px;
 }
@@ -512,7 +512,7 @@ ul {
 }
 
 .sec-gray {
-    background-color: #F6F7F9
+    background-color: rgb(236, 241, 252)
 }
 
 .int-card {
@@ -1826,7 +1826,15 @@ body.overlay-open .theme-transparent-on-light {
 #pricePlans {
 	margin: 2em auto;
 }
-
+#pricePlans #plans #plan1{
+width: 28%
+}
+#pricePlans #plans #plan2{
+    width: 38%
+}
+#pricePlans #plans #plan3{
+    width: 31%;
+}
 #pricePlans #plans .plan {
 	width: 32%;
 	margin: 0 1.33% 20px 0;
@@ -1863,18 +1871,63 @@ body.overlay-open .theme-transparent-on-light {
 	color: #fff;
 }
 
+
+
+
 .planContainer .button a.bestPlanButton:hover {
 	background: #ff9c70;
 	border: 2px solid #ff9c70;
 }
 
 }
-.planContainer .price.p1 p{
+/* .planContainer .price.p1 p{
     background: #254a58;
-}
+} */
 .planContainer .price.p2 p{
     background: #f6ca44;
 }
-.planContainer .price.p3 p{
+/* .planContainer .price.p3 p{
     background: #d3682b;
+} */
+
+
+#plan2 .button a:hover{
+    color: #3e4f6a;
+	background: #fff; 
+}
+
+#plan2 .button a{
+    background: #3e4f6a;
+	color: #fff; 
+}
+
+.fa.platform{
+    margin: 0 2px;
+    color: silver;
+    
+}
+
+/* .fa.fa-android{
+    color: rgb(0, 83, 18);
+}
+
+.fa.fa-apple{
+    color: silver;
+}
+
+.fa.fa-windows{
+    color: rgb(0, 79, 170);
+} */
+
+.form{
+    max-width: 500px;
+    margin: 20px auto;
+    background: white;
+}
+
+.form-container{
+    border-radius: 6px;
+    background-color: #FFF;
+    padding: 24px;
+    margin-bottom: 12px;
 }
