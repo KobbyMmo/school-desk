@@ -46,7 +46,7 @@ section {
 
 @media (min-width:992px) {
     section {
-        padding: 84px 0
+        padding: 42px 0
     }
 }
 
@@ -346,7 +346,7 @@ a:visited {
 }
 
 .intro {
-    background: linear-gradient(0deg, #152235 0, rgba(21, 34, 53, .4) 100%), url(../images/background.jpg);
+    background: linear-gradient(0deg, #152235 0, rgba(21, 34, 53, 0.62) 100%), url(../images/background.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
